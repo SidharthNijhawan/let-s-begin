@@ -1,0 +1,14 @@
+{
+  "name": "dev3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "internetsite.js",
+  "scripts": {
+    "start": "nodemon internetsite.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
