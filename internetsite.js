@@ -142,6 +142,9 @@ function replace(id)
     cardTemp = cardTemp.replace(/#Price#/g, output[id]["price"]);
     cardTemp = cardTemp.replace(/#Productname#/g, output[id]["productName"]);
     cardTemp = cardTemp.replace(/#organic#/g, output[id]["organic"]);
+    if(output[id]["organic"]===false){
+      cardtemp = cardTemp.replace(/{NOT_ORGANIC%}/g,"not - organic");
+    }
    return cardTemp;
 }
 

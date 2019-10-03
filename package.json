@@ -4,7 +4,7 @@
   "description": "",
   "main": "internetsite.js",
   "scripts": {
-    "start": "nodemon internetsite.js"
+    "start": "node internetsite.js"
   },
   "author": "",
   "license": "ISC",
